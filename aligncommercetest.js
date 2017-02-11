@@ -18,8 +18,18 @@
         }
     };
 
-    setInterval(() => {
+    const myTimer = () => {
+        var d = new Date();
+        var t = d.toLocaleTimeString();
+        document.getElementById("demo").innerHTML = t;
+    };
+
+    const changeBgColor = setInterval(() => {
         att.value = 'background-color: ' + getUniqueColor();
         bodyElem.setAttributeNode(att);
-    }, 1000)
+    }, 1000);
+
+    setTimeout(() => {
+        clearInterval(changeBgColor);
+    }, 10000);
 })();
