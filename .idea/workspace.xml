@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0cd3e5d-54ef-4443-95a8-b41677195a41" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/.sass-cache/7642338ec4456596dc75475510d44d07edb2882d/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/.sass-cache/ab0826a6e027a90976a82887567bf11166c1dea3/main.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/arrow-collapsed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/arrow-expanded.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/button-add-to-cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-large-a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-large-b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-large-c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-large-d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-small-a.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-small-b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-small-c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/img/product-small-d.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/tile-wide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/.idea/WSsite.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/aligncommercetest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/browserconfig.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/main.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/css/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/js/vendor/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/js/vendor/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/js/vendor/jquery-1.11.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/js/vendor/jquery-3.1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WSsite/js/vendor/npm.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WSsite.zip" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feedreader" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -104,24 +59,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="applications" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feedreader" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,12 +139,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486777560100</updated>
-      <workItem from="1486777565327" duration="196000" />
+      <workItem from="1486777565327" duration="327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196000" />
+    <option name="totallyTimeSpent" value="327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="47" width="1737" height="901" extended-state="0" />
