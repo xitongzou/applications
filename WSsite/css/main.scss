@@ -1,0 +1,133 @@
+#header {
+  img {
+    margin: auto;
+    padding: 20px 0;
+  }
+}
+
+#navbar {
+  border-radius: 0;
+
+  .navbar-header {
+    width: 100%;
+    font-family: Arial;
+  }
+
+  .container-fluid {
+    width: 100%;
+    padding: 0;
+  }
+
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    white-space: nowrap;
+
+    &:hover {
+      color: #a6e1ec;
+    }
+  }
+
+  .cookwareLink {
+    margin-left: 10%;
+  }
+
+  .homeLink {
+    border-left: 1px solid white;
+    margin-left: -10px;
+    background-color: #19194d;
+    float: right;
+  }
+}
+
+.breadcrumb {
+  background-color: white;
+
+  a {
+    color: gray;
+  }
+}
+
+.breadcrumb>li+li:before {
+  content: ">";
+}
+
+#main {
+  width: 100%;
+
+  .main-image {
+    img {
+      margin: auto;
+    }
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+  .thumbnails {
+    margin-top: 50px;
+
+    .thumbnail {
+      box-shadow: none;
+      border: 0;
+      margin: auto;
+      width: 25%;
+      float: left;
+    }
+  }
+
+  form {
+    .input-group-btn {
+      width: 150px;
+    }
+
+    .quantity-input {
+      margin-bottom: 20px;
+    }
+  }
+
+  #accordion {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-family: Arial;
+
+    .panel-heading {
+      background: none;
+      border: none;
+    }
+
+    .panel-body {
+      border: none;
+    }
+
+    .panel {
+      border: none;
+    }
+
+    #panel-one,
+    #panel-two {
+      border-bottom: 1px solid lightgray;
+    }
+  }
+}
+
+#footer {
+  color: gray;
+  border-top: 2px solid gray;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+
+  a {
+    color: gray;
+  }
+
+  .updated {
+    color: #a94442;
+  }
+}

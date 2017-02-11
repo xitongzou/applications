@@ -1,0 +1,83 @@
+#header img {
+  margin: auto;
+  padding: 20px 0; }
+
+#navbar {
+  border-radius: 0; }
+  #navbar .navbar-header {
+    width: 100%;
+    font-family: Arial; }
+  #navbar .container-fluid {
+    width: 100%;
+    padding: 0; }
+  #navbar a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    white-space: nowrap; }
+    #navbar a:hover {
+      color: #a6e1ec; }
+  #navbar .cookwareLink {
+    margin-left: 10%; }
+  #navbar .homeLink {
+    border-left: 1px solid white;
+    margin-left: -10px;
+    background-color: #19194d;
+    float: right; }
+
+.breadcrumb {
+  background-color: white; }
+  .breadcrumb a {
+    color: gray; }
+
+.breadcrumb > li + li:before {
+  content: ">"; }
+
+#main {
+  width: 100%; }
+  #main .main-image img {
+    margin: auto; }
+  #main a {
+    cursor: pointer; }
+  #main .thumbnails {
+    margin-top: 50px; }
+    #main .thumbnails .thumbnail {
+      box-shadow: none;
+      border: 0;
+      margin: auto;
+      width: 25%;
+      float: left; }
+  #main form .input-group-btn {
+    width: 150px; }
+  #main form .quantity-input {
+    margin-bottom: 20px; }
+  #main #accordion {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 20px 0;
+    text-transform: uppercase;
+    font-family: Arial; }
+    #main #accordion .panel-heading {
+      background: none;
+      border: none; }
+    #main #accordion .panel-body {
+      border: none; }
+    #main #accordion .panel {
+      border: none; }
+    #main #accordion #panel-one,
+    #main #accordion #panel-two {
+      border-bottom: 1px solid lightgray; }
+
+#footer {
+  color: gray;
+  border-top: 2px solid gray;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #f2f2f2; }
+  #footer a {
+    color: gray; }
+  #footer .updated {
+    color: #a94442; }
+
+/*# sourceMappingURL=main.css.map */
