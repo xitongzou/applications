@@ -15,8 +15,11 @@ class Deck {
     const dealtCards;
 
     // initially unshuffled
-    constructor() {
-
+    /*
+    @param cards the number of cards to instantiate with
+     */
+    constructor(cards) {
+        // new Card(); gets instantiated here
     }
 
     // shuffles the deck
@@ -150,6 +153,29 @@ class Table {
     // The current pot stakes on the table
     let bettingPot;
 
+    /*
+    @param decks the number of decks to init with
+    @param hands the number of hands to init with
+     */
+    constructor(decks, hands) {
+        // new Deck(); and new Hand(); gets instantiated here
+        // Decks get instantiated with 52 cards initially in the Deck constructor
+    }
+
+    /*
+    @return the deck at index
+     */
+    getDeck(index) {
+
+    }
+
+    /*
+    @return the hand at index
+     */
+    getHand(index) {
+
+    }
+
     // how many decks are on the table
     /*
     @return number of decks
@@ -191,3 +217,47 @@ class Table {
     }
 
 }
+
+// pseudo code for starting a Poker game
+// 1 deck, 4 players
+const PokerGame = new Table (1, 4);
+
+const deck = PokerGame.getDeck(0);
+
+deck.shuffle();
+
+const hand1 = PokerGame.getHand(0);
+const hand2 = PokerGame.getHand(1);
+const hand3 = PokerGame.getHand(2);
+const hand4 = PokerGame.getHand(3);
+
+hand1.addCard(deck.dealCard());
+hand1.addCard(deck.dealCard());
+hand2.addCard(deck.dealCard());
+hand2.addCard(deck.dealCard());
+hand3.addCard(deck.dealCard());
+hand3.addCard(deck.dealCard());
+hand4.addCard(deck.dealCard());
+hand4.addCard(deck.dealCard());
+
+// reveal 3 cards in opening for Texas Hold Em
+deck.shuffle();
+const card1 = deck.dealCard();
+const card2 = deck.dealCard();
+const card3 = deck.dealCard();
+
+// take bets $20 for example
+PokerGame.modifyBettingPot(20);
+
+// reveal
+const card4 = deck.dealCard();
+const card5 = deck.dealCard();
+
+// have a loop here for each hand...
+hand1.sortHand('suit');
+hand1.sortHand('value');
+hand1.forEach((card) => {
+    // do matching algorithms here to match with a combo like flush, straight, pair, three of a kind, etc
+});
+
+// hand with highest value combo wins and game starts over (new Table is created)
