@@ -1,0 +1,69 @@
+<!doctype html>
+<html ng-app="todoApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>To-do List</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="js/todo.js"></script>
+</head>
+<body>
+<div class="container-fluid" ng-controller="TodoListController as todoList">
+    <h2>Todo</h2>
+    <h3>Completed tasks: {{todoList.completed()}}</h3>
+    <h3>Added Tasks</h3>
+    <table class="table table-condensed">
+        <thead>
+        <tr>
+            <td>ID</td>
+            <td>Subject</td>
+            <td>If Completed</td>
+        </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="todo in todoList.todos">
+                <td ng-show="!todo.done"><span>{{todo.id}}</span></td>
+                <td ng-show="!todo.done"><span>{{todo.subject}}</span></td>
+                <td ng-show="!todo.done"><span>{{todo.ifcompleted}}</span></td>
+                <td ng-show="!todo.done"><button class="btn btn-default" ng-click="todoList.remove($index);">Remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>All Tasks</h3>
+    <table class="table table-condensed">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Subject</td>
+                <td>If Completed</td>
+                <td>Completed</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="todo in todoList.todos">
+                <td><span class="done-{{todo.done}}">{{todo.id}}</span></td>
+                <td><span class="done-{{todo.done}}">{{todo.subject}}</span></td>
+                <td><span class="done-{{todo.done}}">{{todo.ifcompleted}}</span></td>
+                <td><span class="done-{{todo.done}}">{{todo.done}}</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <form ng-submit="todoList.addTodo()">
+        <div class="form-group">
+            <input type="number" ng-model="todoList.id"  size="5"
+                   placeholder="ID">
+            <input type="text" ng-model="todoList.subject"  size="20"
+                   placeholder="Subject">
+            <input type="text" ng-model="todoList.ifcompleted"  size="20"
+                   placeholder="If Completed">
+        </div>
+        <input class="btn btn-primary" type="submit" value="add">
+    </form>
+</div>
+</body>
+</html>
+
