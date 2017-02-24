@@ -1,5 +1,152 @@
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #333
+}
+header {
+  background-color: #603A87;
+  font-size: 20px;
+  height: 50px;
+  color: #f5f5f5;
+  float: left;
+}
+header .goBack,
+header .menu {
+  padding: 15px;
+  display: inline-block;
+}
+header h1 {
+  display: inline-block;
+  width: 250px;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  height: 44px;
+  line-height: 55px;
+  letter-spacing: 1px;
+  padding: 0 45px;
+}
+.profile-container {
+  background-color: #EEEEF0;
+  width: 441px;
+  height: 170px;
+  clear: left;
+}
+
+.contact-label {
+   font-size: 14px;
+   color: #8F9295;
+   line-height: 1.25em;
+ }
+
+.avatar-image {
+  max-width: 100px;
+  float: left;
+}
+
+.avatar-image img {
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  height: 80px;
+  width: 80px;
+}
+
+.contact-info {
+  font-size: 17px;
+  color: #404243;
+  line-height: 1.35em;
+  max-width: 250px;
+  float: left;
+  margin: 20px 0 0 20px;
+}
+
+.section-container {
+  border-bottom: 1px solid #D8DDE1;
+  width: 441px;
+}
+.section-header {
+  font-size: 14px;
+  color: #8F9295;
+  line-height: 1.25em;
+}
+.stats-container {
+  float: left;
+}
+.stat {
+  float: left;
+  margin: 10px 20px;
+}
+.followers-container {
+  margin: 20px;
+  font-size: 14px;
+  color: #8F9295;
+  text-transform: uppercase;
+  line-height: 1.25em;
+  clear: left;
+  border: none;
+  padding-top: 20px;
+}
+.following {
+  margin-left: 100px;
+  color: #2c2138;
+  border-bottom: 2px solid #2c2138;
+}
+.see-all {
+  margin-left: 360px;
+  clear: left;
+  text-transform: uppercase;
+}
+.see-all a {
+  color: #2c2138;
+  text-decoration: none;
+}
+.followers {
+  margin-left: 20px;
+}
+.followings-container {
+  height: 500px;
+}
+.followings {
+  margin-top: 20px;
+}
+.followee {
+  clear: left;
+  border-bottom: 1px solid #D8DDE1;
+  padding: 20px;
+  height: 30px;
+}
+.followee:last-child {
+  border: none;
+}
+.followee img {
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.followee .user-name {
+  float: left;
+  color: black;
+  font-size: 16px;
+  margin: 10px;
+}
+.stat:first-child {
+  margin-left: 100px;
+}
+.stats-label {
+  font-size: 14px;
+  color: #8F9295;
+  line-height: 1.25em;
+  text-align: center;
+}
+.stats-total {
+  font-size: 24px;
+  color: #404243;
+  font-weight: 300;
+  line-height: 1.35em;
+}
+
+.avatar-size {
+  width: 40px;
+  height: 40px;
 }
