@@ -1,0 +1,20 @@
+.quiz-card .question {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.quiz-card .btn {
+    margin: auto;
+}
+
+.quiz-card .content {
+    margin: 20px 0;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
